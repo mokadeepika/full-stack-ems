@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const DEPARTMENT_REST_API_BASE_URL = 'https://emsbackend-production.up.railway.app/employees'
+const DEPARTMENT_REST_API_BASE_URL = 'https://emsbackend-production.up.railway.app'
 
 export const getAllDepartments = () => axios.get(DEPARTMENT_REST_API_BASE_URL);
 
